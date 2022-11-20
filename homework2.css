@@ -1,0 +1,83 @@
+
+header{
+    display:flex;
+    justify-content: center;
+    padding:20px 10px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+
+header>*{
+    width:33%;
+}
+
+
+header i:first-child{
+    text-align:left;
+}
+header i:last-child{
+    text-align:right;
+}
+
+body {
+    max-width:300px;
+    margin:auto;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+
+.artist {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.arist__picture {
+    width:100px;
+    border-radius: 90px;
+}
+
+.aritst__button {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.artist__button__shuffle {
+background : black;
+color:white;
+font-size: 12px;
+font-weight: 100;
+padding:10px 40px;
+border-radius: 30px;
+
+}
+
+.artist__song {
+    display:flex;
+}
+
+.artist__song_pic {
+    width:70px;
+    height: 70px;
+    border-radius: 15px;
+}
+.artist__song_info {
+    display:flex;
+}
+
+.play_now {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:black;
+    color:white;
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    height:10px;
+    opacity: 0.9;
+}
+
+
